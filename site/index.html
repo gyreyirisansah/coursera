@@ -2,8 +2,47 @@
 <html>
 <head>
 	<title>DivTech</title>
+	<Style>
+
+		*{
+			box-sizing: border-box;
+		}
+
+		div{
+			background-color: #00FFFF;
+		}
+
+		p{
+			width: 50%;
+			border: 1px solid black;
+			float: left;
+		}
+
+		#p1{
+			background-color: #A52A2A;
+			float: right;
+		}
+
+		#p2{
+			background-color: #DEB887;
+		}
+
+		section {
+			clear: both;
+		}
+
+
+		
+	</Style>
 </head>
 <body>
 	<h1>Welcome to DivTech</h1>
+	<div>
+		<p id="p1">The central point of the system is Google Firebase real-time database. This is where the energy meter, mobile app and the web application send and retrieve data. A real-time database is one that saves data very rapidly into the database and retrieves data from it. Data is stored in JSON format and continually synchronized to each associated client. Firebase is Google provided API to create a database and fetch from it in real-time with only a few lines of code (Khedkar and Thube, 2017). The firebase database is a cloud-based database and does not need SQL-based queries to store or retrieve data. Therefore, the database is highly reliable such that data is kept even if the connection is lost (Khedkar and Thube, 2017).</p>
+		
+		<p id="p2">The web application was developed using React Js. ReactJS is a component-based library that is deployed for interactive user interface creation. Nowadays it is the most popular JS front-end library. It is supported by Facebook, Instagram and individual developers and organisations’ community. React effectively allows for the creation of broad and complex web-based applications that can adjust their data without refreshing the page afterward. It aims at delivering better user experience and the development of fast and robust web apps (Aggarwal, 2018). </p>
+		
+		<section>This is regular content continuing after the paragraph boxes</section>
+	</div>
 </body>
 </html>
